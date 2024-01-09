@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Caprasimo&display=swap" rel="stylesheet">
+    <title>Stay Feet</title>
+</head>
+    <style>
+         /* css base set */
+         body{
+            font-family: 'Anton', sans-serif;
+            font-family: 'Caprasimo', cursive;
+            margin: 0px;
+            padding: 0px;
+            background: url('/img.jpg');
+            background-size: contain;
+            /* width: 18550px; */
+            height: 875px;
+            color: white;
+         }
+         .left{
+            /* border: 2px solid red ; */
+            display: inline-block;
+            position: absolute;
+            left: 64px;
+            top: 10px;
+            
+         }
+         .left img{
+            width: 7cqh;
+            margin-top:  44px;
+            margin-left:  54px;
+            background-color: black;
+            
+         }
+         .left div{
+           text-align: center;
+           font-weight: bold;
+           padding: 12px;
+           margin-left:  34px;
+           font-size:18px;
+           
+         }
+         .mid{
+            /* border: 2px solid rgb(81, 0, 255) ; */
+            display: block;
+            width: 43%;
+            margin: 12px auto ;
+
+         }
+         .right{
+            /* border: 2px solid rgb(26, 79, 87) ; */
+            margin: 18px;
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            right: 34px;
+            font-size: 22px;
+            cursor: pointer;
+ 
+         }
+         .btn{
+            margin: 0px 12px;
+            background-color: black;
+            color: white ;
+            padding: 4px 8px;
+            /* border: 2px solid green; */
+            border-radius: 4px;
+
+
+         }
+         .btn:hover{
+            color: blue;
+         }
+         .navbar
+        {
+            display: inline-block;
+            margin-top:12px ;
+            /* text-decoration: none; */
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 20px;
+            /* text-decoration: none; */
+        }
+        .navbar li  a{
+            display: inline-block;
+            color: white;
+            padding: 34px 12px;
+
+            text-decoration: none;
+        }
+        .navbar li  a:hover , .navbar li a:active{
+            
+            color: blue;
+            padding: 34px 12px;
+
+            text-decoration: underline;
+           
+        }
+        .container{
+            border: 2px solid white ;
+            position: absolute;
+            top: 32%;
+            left: 44px;
+            padding: 12px;
+            border-radius: 12px;
+            font-size: 13px;
+           margin: 23px 12px;
+        }
+         .button{
+            background-color: white;
+            /* margin: 12px 52px; */
+            border-radius: 12px;
+            display: block;
+            margin: auto;
+            width: 234px;
+        }
+        .button:hover{
+            color: blue;
+            background-color: black;
+        }
+        .form-group input{
+            display: block;
+            background-color: rgb(36, 32, 32);
+            color: rgb(151, 207, 239) ;
+             border-radius :6px ;
+             margin: 11px;
+             text-align:center ;
+             font-family: 'Anton', sans-serif;
+            font-family: 'Caprasimo', cursive;
+            
+             width: 403px;
+        }
+        .form-group input:hover{
+            display: block;
+            background-color: rgb(150, 180, 178);
+            color: rgb(85, 85, 87) ;
+             border-radius :6px ;
+             margin: 4px;
+        }
+        .container h2{
+            text-align: center;
+        }
+       
+    </style>
+<body>
+    <header class="header">
+        <!-- lrft fot logo -->
+        <div class="left">
+            <img src="./logo.jpg" alt="">
+            <div>Fitness gym</div>
+        </div>
+        <!-- mid for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">FITNESS GYM</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for button  -->
+        <div class="right">
+            <buton class="btn">Sign Up</buton>
+            <buton class="btn">Sign In</buton>
+        </div>
+    </header>
+    <div class="container">
+       <H2>JOIN THE BEST GYM OF MUMBAI</H2>
+       <form action="noaction.php" >
+       <div class="form-group">
+        <input type="text" name="" placeholder="Enter your name">
+       </div>
+       <div class="form-group">
+        <input type="text" name="" placeholder="Enter your age">
+       </div>
+       <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Gender">
+       </div>
+       <div class="form-group">
+        <input type="text" name="" placeholder="Enter your locality">
+       </div>
+       <button class="button">SUBMIT</button>
+    </form>
+    </div>
+    
+</body>
+</html>
